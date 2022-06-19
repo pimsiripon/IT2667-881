@@ -1,7 +1,7 @@
 class Car:
     brand = "Toyota"
 
-    def __init__(self,model:str,colour:str,year:int,price:int) -> None:
+    def __init__(self,model:str,colour:str,year:int,price:int) :
         self.model = model
         self.colour = colour
         self.year = year

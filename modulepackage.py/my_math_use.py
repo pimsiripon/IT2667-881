@@ -5,7 +5,7 @@ print(f'sqart of 5 = {sqrt(5)}')
 print(f'circle area = {circle_area(2):,.2f}')
 
 # วิธีที่ 2
-import my_math
+import my_math as my
 print("*****วิธที่ 2*****")
-print(f'sqart of 5 ={sqrt(5)}')
-print(f'circlearea = {circle_area(2):,.2f}')
+print(f'sqart of 5 ={my.sqrt(5)}')
+print(f'circlearea = {my.circle_area(2):,.2f}')
